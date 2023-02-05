@@ -13,7 +13,7 @@ import { useToast } from "vue-toastification";
 export default {
   data() {
     return {
-      inputStyle: "w-[320px] p-3 rounded-md outline-none mb-5 border shadow-md focus:border-green-300 focus:shadow-green-300",
+      inputStyle: "w-[320px] p-3 backdrop-blur-md bg-opacity-25 bg-white rounded-md outline-none mb-5 border shadow-md focus:border-green-300 focus:shadow-green-300",
       name: this.name,
       surname: this.surname,
       toast: useToast(),
