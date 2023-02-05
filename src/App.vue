@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import User from './components/User.vue';
+import User from './components/UserCard.vue';
 import Inputs from './components/Inputs.vue';
 // 
 import { Swiper, SwiperSlide } from 'swiper/vue';
